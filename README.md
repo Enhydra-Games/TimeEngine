@@ -4,7 +4,26 @@ Documentation for the World Time Engine Unreal Plugin
 ## Table of Contents
 - [Demo Level](#demo-level)
 - [Blueprint](#blueprint)
-- [World Time Engine UWorldSubsystem](#world-time-engine-uworldsubsystem)
+  - [World Time Engine UWorldSubsystem](#world-time-engine-uworldsubsystem)
+  - [Time Info](#time-info)
+    - [Current Time of the Day](#current-time-of-the-day)
+    - [Full Current Time](#full-current-time)
+    - [Full Current Time in Seconds](#full-current-time-in-seconds)
+    - [Is Paused](#is-paused)
+    - [Get Time Flow Speed](#get-time-flow-speed)
+  - [Time Settings](#time-settings)
+    - [Flow Speed](#flow-speed)
+  - [Time Manipulation](#time-manipulation)
+    - [Pause Time](#pause-time)
+    - [Set Time](#set-time)
+    - [Add to Time](#add-to-time)
+    - [Subtract from Time](#subtract-from-time)
+    - [Change Time Flow Speed](#change-time-flow-speed)
+  - [Time Events](#time-events)
+    - [Time Modification Event](#time-modification-event)
+    - [Time Flow Speed Changed Event](#time-flow-speed-changed-event)
+  - [Timer Trigger](#timer-trigger)
+  - [Point in Time Trigger](#point-in-time-trigger)
 
 ## Demo Level
 A pre-built example level included with the plugin that lets you explore and test the time system in action before integrating it into your own project.
